@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #9c36b5;
+    --cor-secundaria: #ffe066;
+    --cor-3: #FC35E6;
+    --cor-4: #33EEF4;
+    --cor-5: rgb(238,174,202);
+    
+}
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,0.5158438375350141) 29%, rgba(148,187,233,1) 100%);
+  }
+  div {
+    width: 400px;
+    height: 400px;
+  
+    border-width: 20px;
+    border-style: groove;
+    border-color:var(--cor-5);
+    border-radius: 15%;
+  
+    background-image: url(./Firefly\ cartaz\ de\ design\ gráfico\ preencher\ com\ vários\ projetos\ de\ folhetos\ de\ vida\ natural\ em\ um\ fun.jpg);
+  
+    text-align: center;
+  
+    box-shadow: inset 8px 6px 6px 6px var(--cor-4);
+    background-size: cover;
+  
+    padding: 10px;
+  
+    outline-width: 36px;
+    outline-style: double;
+    outline-color: var(--cor-3);
+  
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  p {
+    padding-top: 160px;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 900;
+    color:var(--cor-4);
+      
+  }
